@@ -7,6 +7,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.example.amitfinalproject.R;
 import com.example.amitfinalproject.helper.TokenManager;
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setupNavWithBottomNav();
 
+
+        Toast.makeText(this, "my test branch", Toast.LENGTH_SHORT).show();
 
         tokenManager = new TokenManager(this);
        String s= tokenManager.getToken();
