@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "my test branch", Toast.LENGTH_SHORT).show();
 
+
+
         tokenManager = new TokenManager(this);
        String s= tokenManager.getToken();
         Log.d("ddddddddddddd", "onCreate: "+s);

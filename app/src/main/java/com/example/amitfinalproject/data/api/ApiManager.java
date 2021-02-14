@@ -25,6 +25,9 @@ public class ApiManager {
        return getInstance().create(UserService.class);
     }
 
+    public static ProductService getProductService(){
+        return getInstance().create(ProductService.class);
+    }
 
 
 
