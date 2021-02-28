@@ -1,4 +1,4 @@
-package com.example.amitfinalproject.data.api;
+package com.example.amitfinalproject.data.source.api;
 
 import com.example.amitfinalproject.data.model.UserResponse;
 

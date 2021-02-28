@@ -1,4 +1,4 @@
-package com.example.amitfinalproject.data.model;
+package com.example.amitfinalproject.data.model.product;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,4 +1,4 @@
-package com.example.amitfinalproject.data.api;
+package com.example.amitfinalproject.data.source.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

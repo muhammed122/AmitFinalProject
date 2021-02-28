@@ -1,6 +1,8 @@
-package com.example.amitfinalproject.data.model;
+package com.example.amitfinalproject.data.model.product;
 
 import java.util.List;
+
+import com.example.amitfinalproject.data.model.product.ProductsItem;
 import com.google.gson.annotations.SerializedName;
 
 public class ProductsResponse{

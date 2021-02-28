@@ -6,7 +6,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import com.example.amitfinalproject.R;
-import com.example.amitfinalproject.data.api.ApiManager;
 
 public class LoginScreen extends AppCompatActivity {
 
