@@ -18,13 +18,11 @@ import android.widget.Toast;
 import com.example.amitfinalproject.R;
 import com.example.amitfinalproject.data.model.category.CategoriesItem;
 import com.example.amitfinalproject.ui.adapter.CategoryAdapter;
-import com.example.amitfinalproject.ui.adapter.ProductAdapter;
 
 import java.util.List;
 
 
 public class CategoryFragment extends Fragment {
-
 
     RecyclerView productRecycler;
     RecyclerView.LayoutManager layoutManager;

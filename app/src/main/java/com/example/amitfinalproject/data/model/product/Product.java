@@ -2,7 +2,9 @@ package com.example.amitfinalproject.data.model.product;
 
 import com.google.gson.annotations.SerializedName;
 
-public class ProductsItem{
+import java.io.Serializable;
+
+public class Product implements Serializable {
 
 	@SerializedName("price_final_text")
 	private String priceFinalText;
